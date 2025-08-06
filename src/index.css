@@ -43,3 +43,17 @@ ul {
 li {
   margin: 0.5rem 0;
 }
+/* Add at the end of index.css */
+.app.dark button,
+.app.dark .input-group button {
+  background: #fff !important;
+  color: #181818 !important;
+  border: 1px solid #fff !important;
+}
+
+.app.dark button:hover,
+.app.dark .input-group button:hover {
+  background: #f0f0f0 !important;
+  color: #181818 !important;
+  border: 1px solid #181818 !important;
+}
